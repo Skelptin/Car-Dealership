@@ -7,7 +7,7 @@
     "dev": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
-    "build": "npm install && npm install --prefix ../client && npm run build --prefix ../cclient "
+    "build": "npm install && npm install --prefix client && npm run build --prefix client "
   },
   "author": "",
   "license": "ISC",
