@@ -1,0 +1,32 @@
+/* Write your global styles here, in PostCSS syntax */
+
+@tailwind base;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(55, 50, 90);
+    background: linear-gradient(165deg, rgba(55, 50, 90, 1) 0%, rgba(50, 37, 62, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.nav {
+
+    background: rgb(55, 50, 90);
+    background: linear-gradient(165deg, rgba(55, 50, 90, 1) 0%, rgba(50, 37, 62, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+@tailwind components;
+
+@tailwind utilities;
